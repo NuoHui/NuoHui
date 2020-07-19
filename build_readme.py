@@ -161,9 +161,10 @@ if __name__ == "__main__":
     )
     project_releases.open("w").write(project_releases_content)
 
-    code_time_text = "\n```text\n"+fetch_code_time().text+"\n```\n"
+    # code_time_text = "\n```text\n"+fetch_code_time().text+"\n```\n"
 
-    rewritten = replace_chunk(rewritten, "code_time", code_time_text)
+    # rewritten = replace_chunk(rewritten, "code_time", code_time_text)
+    print(rewritten)
 
     # doubans = fetch_douban()[:5]
 
