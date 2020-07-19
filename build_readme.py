@@ -165,18 +165,18 @@ if __name__ == "__main__":
 
     rewritten = replace_chunk(rewritten, "code_time", code_time_text)
 
-    doubans = fetch_douban()[:5]
+    # doubans = fetch_douban()[:5]
 
-    doubans_md = "\n".join(
-        ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**item) for item in doubans]
-    )
+    # doubans_md = "\n".join(
+    #     ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**item) for item in doubans]
+    # )
 
-    rewritten = replace_chunk(rewritten, "douban", doubans_md)
+    # rewritten = replace_chunk(rewritten, "douban", doubans_md)
 
-    entries = fetch_blog_entries()[:5]
-    entries_md = "\n".join(
-        ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**entry) for entry in entries]
-    )
-    rewritten = replace_chunk(rewritten, "blog", entries_md)
+    # entries = fetch_blog_entries()[:5]
+    # entries_md = "\n".join(
+    #     ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**entry) for entry in entries]
+    # )
+    # rewritten = replace_chunk(rewritten, "blog", entries_md)
 
     readme.open("w").write(rewritten)
