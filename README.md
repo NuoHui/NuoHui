@@ -7,8 +7,6 @@
 🌱 &nbsp;Focus on front-end development, nodejs.\
 ✍️ &nbsp;Currently living in Shenzhen.
 
-<img alt="Xyz Coding" src="https://github.com/NuoHui/NuoHui/blob/master/assets/Night-Coding.gif" align="right"/>
-
 
 ### 🛠 &nbsp;Tech Stack
 
