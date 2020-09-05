@@ -27,12 +27,13 @@
 
 ### ⚙️ &nbsp;GitHub Analytics
 
-<p>
+<p align="left">
 <a href="https://github.com/NuoHui">
-  <img width=50% style="float:left;height="180em""  src="https://github-readme-stats-eight-theta.vercel.app/api?username=NuoHui&show_icons=true&theme=vue-dark&include_all_commits=true&count_private=true" />
-  <img width=50% style="float:right;height="180em""  src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=NuoHui&layout=compact&exclude_lang=java+r&theme=vue-dark" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=NuoHui&show_icons=true&theme=vue-dark&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=NuoHui&layout=compact&exclude_lang=java+r&theme=vue-dark" />
 </a>
 </p>
+
 
 <br />
 
