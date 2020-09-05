@@ -1,5 +1,3 @@
-![Banner](https://github.com/NuoHui/NuoHui/blob/master/assets/banner.png)
-
 ## 👋 &nbsp;Hey there! I'm XYZ
 
 ### 👨🏻‍💻 &nbsp;About Me
@@ -8,6 +6,8 @@
 🎓 &nbsp;Continuous Learning.\
 🌱 &nbsp;Focus on front-end development, nodejs.\
 ✍️ &nbsp;Currently living in Shenzhen.
+
+<img alt="Night Coding" src="https://github.com/NuoHui/NuoHui/tree/master/assets/Night-Coding.gif" align="right"/>
 
 
 ### 🛠 &nbsp;Tech Stack
