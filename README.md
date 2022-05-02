@@ -32,6 +32,16 @@
 </a>
 </p>
 
+<details align="left">
+<summary>GitHub Trophies 🏆</summary>
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy" target="_blank">
+    <img src="https://github-profile-trophy.vercel.app/?username=NuoHui&theme=gruvbox"/>
+  </a>
+</p>
+</details>
+
+[![NuoHui's github activity graph](https://activity-graph.herokuapp.com/graph?username=NuoHui&theme=xcode)](https://github.com/NuoHui)
 
 <br />
 
