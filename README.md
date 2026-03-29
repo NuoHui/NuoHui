@@ -4,7 +4,7 @@
 
 💡 &nbsp;Self-programmer.\
 🎓 &nbsp;Continuous Learning.\
-🌱 &nbsp;Focus on front-end development, nodejs.\
+🌱 &nbsp;Focus on front-end development, ai.\
 ✍️ &nbsp;Currently living in Shenzhen.
 
 
