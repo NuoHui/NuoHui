@@ -15,20 +15,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate trophy via metrics
-        uses: lowlighter/metrics@latest
+      - name: Generate trophy SVG
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: NuoHui
-          # 只启用 achievements 插件，输出极简卡片
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_secrets: yes
-          plugin_achievements_ignored: ""
-          config_output: svg
-          # metrics 默认输出到仓库根目录，filename 只写文件名
-          filename: output/trophy.svg
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_branch: master
-          committer_message: "chore: update trophy svg [skip ci]"
+          username: NuoHui
+          output_path: output/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate trophy SVG
+        run: |
+          test -s output/trophy.svg
+          grep -q "<svg" output/trophy.svg
+          if grep -qi "Unexpected error" output/trophy.svg; then
+            echo "::error::Generated trophy SVG contains an error message"
+            cat output/trophy.svg
+            exit 1
+          fi
+
+      - name: Commit and push trophy SVG
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update trophy svg [skip ci]"
+          file_pattern: output/trophy.svg
