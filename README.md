@@ -90,19 +90,20 @@
 ### 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NuoHui/NuoHui/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution Snake" src="output/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
 
 <br />
 
-<details>
-  <summary>🏆 GitHub Trophies</summary>
-  <p align="center">
-    <a href="https://github.com/ryo-ma/github-profile-trophy">
-      <img src="https://github-profile-trophy.vercel.app/?username=NuoHui&theme=tokyonight&no-frame=true&margin-w=15" alt="GitHub Trophies" />
-    </a>
-  </p>
-</details>
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="output/trophy.svg" alt="GitHub Trophies" />
+</p>
 
 <br />
 

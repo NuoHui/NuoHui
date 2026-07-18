@@ -20,12 +20,11 @@ jobs:
         with:
           github_user_name: NuoHui
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            output/github-contribution-grid-snake.svg
+            output/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Publish to output branch
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Commit and push snake SVGs
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
+          commit_message: "chore: update contribution snake [skip ci]"
+          file_pattern: output/*.svg
