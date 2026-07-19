@@ -103,10 +103,11 @@
 
 <br />
 
-### 🏆 GitHub Trophies
+### 🏆 Highlights
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NuoHui/NuoHui/master/output/trophy.svg?v=20260719" alt="GitHub Trophies" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NuoHui&theme=tokyonight&utcOffset=8" alt="Productive Time" height="180em" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NuoHui&theme=tokyonight" alt="Top Languages by Commit" height="180em" />
 </p>
 
 <br />
