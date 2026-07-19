@@ -95,9 +95,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="output/github-contribution-grid-snake.svg" />
-    <img alt="Contribution Snake" src="output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NuoHui/NuoHui/master/output/github-contribution-grid-snake-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NuoHui/NuoHui/master/output/github-contribution-grid-snake.svg?v=2" />
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/NuoHui/NuoHui/master/output/github-contribution-grid-snake.svg?v=2" />
   </picture>
 </p>
 
@@ -106,7 +106,7 @@
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="output/trophy.svg" alt="GitHub Trophies" />
+  <img src="https://raw.githubusercontent.com/NuoHui/NuoHui/master/output/trophy.svg?v=2" alt="GitHub Trophies" />
 </p>
 
 <br />
